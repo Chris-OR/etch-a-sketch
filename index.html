@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+
+    <div class="grid-settings">
+        <div class="grid-size">
+            Width:
+            <input type="text" id="width" value="56">
+            Height:
+            <input type="text" id="height" value="56">
+            <button id="set-grid">Set Grid</button>
+            <button id="clear-grid">Clear Grid</button>
+        </div>
+        <div class="grid-colour">
+            Pick your fill color:
+            <input type="color" id="color"></input>
+            Enter rainbow mode:
+            <input type="checkbox" id="rainbow">
+            Enter eraser mode:
+            <input type="checkbox" id="eraser">
+
+        </div>
+    </div>
+
+    <div class="sketch-container"></div>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>
